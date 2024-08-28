@@ -1,0 +1,66 @@
+@media (min-width: 721px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container-another{
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: -36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 111px;
+        font-weight: bold;
+        /* text-transform: uppercase; */
+    }
+    .container-another .slogan2{
+        position: relative;
+        left: 97px;
+        color: #f1f1f4;
+        text-shadow: 1px 1px 15px black;
+    }
+    .container-another .slogan1{
+        position: relative;
+        left: -97px;
+        top: 30px;
+        color:rgb(175, 141, 243);
+        /* text-shadow: 1px 1px 5px black; */
+    }
+}
+@media (max-width: 720px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container-another{
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .container-another .slogan2{
+        position: relative;
+        top: -2px;
+        left: 20px;
+        color:#f1f1f4;
+        text-shadow: 1px 1px 5px black;
+    }
+    .container-another .slogan1{
+        position: relative;
+        left: -33px;
+        top: 5px;
+        color:rgb(175, 141, 243);
+        /* -webkit-text-stroke-width: 2px; */
+        /* -webkit-text-stroke-color: black; */
+        /* text-shadow: 1px 1px 5px black; */
+    }
+
+}
